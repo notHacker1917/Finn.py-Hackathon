@@ -1,0 +1,11 @@
+# Format: Source Name | RSS URL | Category
+ScaffMag | https://scaffmag.com/feed/ | Formwork & Scaffolding
+ULMA Construction DE | https://www.ulmaconstruction.de/de-de/ulma/aktuelles/aggregator/RSS | Industry Platforms
+Layher NA | https://layherna.com/feed/ | Industry Platforms
+Construction Index | https://www.theconstructionindex.co.uk/feeds/news.xml | General Construction News
+Construction Enquirer | https://www.constructionenquirer.com/feed | General Construction News
+Construction News | https://www.constructionnews.co.uk/feed/ | General Construction News
+Essential Construction | https://essential.construction/feed/ | General Construction News
+ArchDaily | https://www.archdaily.com/rss | Innovation Networks
+Engineering News-Record | https://www.enr.com/rss/1 | General Construction News
+Arch. record | https://www.architecturalrecord.com/rss/topic/3300-architecture-festivals | General Construction News
