@@ -23,7 +23,7 @@ Finn.py is a research assistant for Architecture, Engineering, and Construction 
 - Python 3.11 (any recent 3.10+ build with venv support works).
 - Access tokens for StackIT Model Serving (chat plus embeddings) and a Qdrant instance.
 - Optional: a GPU-backed environment if you plan to swap in local embedding models.
-
+ 
 ## Required Environment Variables
 Create a `.env` file (already git-ignored). Copy the keys below with your own values:
 
