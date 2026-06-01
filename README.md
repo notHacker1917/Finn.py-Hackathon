@@ -8,7 +8,7 @@ Finn.py is a research assistant for Architecture, Engineering, and Construction 
 - **Document and RSS uploads:** Users can upload PDF, DOCX, TXT, or Markdown files whose contents are auto-summarized and indexed next to RSS entries.
 - **Searchable vector store:** Qdrant stores dense embeddings (StackIT or sentence-transformers), enabling semantic search and deduplication.
 - **Configurable refresher:** A JSON schedule in `data/refresh_schedule.json` keeps track of manual or scheduled refreshes.
- 
+  
 ## Repository Layout 
 - `app.py` - Flask application serving the dashboard, assistant, upload, refresh, and API endpoints. 
 - `ingest.py` - CLI plus library that ingests RSS feeds or uploaded documents and syncs them to Qdrant.
