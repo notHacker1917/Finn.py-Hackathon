@@ -12,7 +12,7 @@ Finn.py is a research assistant for Architecture, Engineering, and Construction 
 ## Repository Layout 
 - `app.py` - Flask application serving the dashboard, assistant, upload, refresh, and API endpoints. 
 - `ingest.py` - CLI plus library that ingests RSS feeds or uploaded documents and syncs them to Qdrant.
-- `client.py` - Minimal script to confirm StackIT LLM access.
+- `client.py` - Minimal script to confirm StackIT LLM access. 
 - `templates/` - Jinja templates for dashboard, assistant, add-source, refresh, and visuals pages.
 - `static/` - Tailwind-ready assets, icons, and helper JS.
 - `sources.txt` - Pipe-delimited list of RSS feeds (`Name|URL|Category`).
