@@ -3,7 +3,7 @@
 Finn.py is a research assistant for Architecture, Engineering, and Construction (AEC) teams. It ingests curated RSS feeds and uploaded documents, asks an LLM to summarize the findings, stores the resulting "signals" in Qdrant, and exposes a Tailwind-powered Flask dashboard that lets analysts explore insights, run refresh jobs, and chat with an embedded assistant.
  
 ## Highlights
-- **Dashboard & workflows:** `/` shows ranked signals, `/assistant` exposes the LLM, `/add_source` validates RSS feeds, `/refresh` controls ingestion schedules, and `/visuals` renders simple analytics.
+- **Dashboard & workflows:** `/` shows ranked signals, `/assistant` exposes the LLM, `/add_source` validates RSS feeds, `/refresh` controls ingestion schedules, and `/visuals` renders simple analytics. 
 - **Automated ingestion:** `ingest.py` fetches articles from `sources.txt`, enriches them with the StackIT-hosted Llama 3.3 model, and uploads vectors plus metadata to Qdrant.
 - **Document and RSS uploads:** Users can upload PDF, DOCX, TXT, or Markdown files whose contents are auto-summarized and indexed next to RSS entries.
 - **Searchable vector store:** Qdrant stores dense embeddings (StackIT or sentence-transformers), enabling semantic search and deduplication.
