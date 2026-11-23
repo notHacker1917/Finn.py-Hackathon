@@ -1,6 +1,6 @@
 langchain
 langchain-openai
-python-dotenv
+python-dotenv 
 flask
 flask-cors
 python-dotenv
@@ -9,6 +9,7 @@ trafilatura
 beautifulsoup4
 feedparser
 apscheduler
+
 qdrant-client
 lxml-html-clean
 sentence-transformers
