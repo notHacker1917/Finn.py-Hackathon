@@ -8,7 +8,7 @@ requests
 trafilatura
 beautifulsoup4
 feedparser
-apscheduler
+apscheduler 
 
 qdrant-client
 lxml-html-clean
