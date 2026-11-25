@@ -3,7 +3,7 @@ from langchain_openai import ChatOpenAI
 import os
 
 load_dotenv() 
-
+ 
 llm = ChatOpenAI(
     model=os.getenv("STACKIT_MODEL_SERVING_MODEL"),
     base_url=os.getenv("STACKIT_MODEL_SERVING_BASE_URL"),
