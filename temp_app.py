@@ -8,7 +8,7 @@ from io import BytesIO
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
  
-import feedparser
+import feedparser 
 from flask import Flask, jsonify, render_template, request
 from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
